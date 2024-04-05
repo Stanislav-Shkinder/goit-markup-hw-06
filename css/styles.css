@@ -194,12 +194,18 @@ img{
     background-color: #2e2f42;
     padding-top: 72px;
     padding-bottom: 72px;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name-mob-min.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     max-width: 100%;
     margin: auto;
+}
+
+@media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 192dppx) {
+    .title-banner{
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name-mob-2x.jpg);
+    }
 }
 
 .section-one{
@@ -258,6 +264,15 @@ img{
         max-width: 496px;
         margin-bottom: 36px;
     }
+    .title-banner{
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name-tab-min.jpg);
+    }
+
+    @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 192dppx) {
+        .title-banner{
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name-tab-2x.jpg);
+        }
+    }
 }
 
 @media screen and (min-width: 1158px) {
@@ -270,6 +285,15 @@ img{
     }
     .title{
         margin-bottom: 48px;
+    }
+    .title-banner{
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpg);
+    }
+
+    @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 192dppx) {
+        .title-banner{
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name-2x.jpg);
+        }
     }
     
 }

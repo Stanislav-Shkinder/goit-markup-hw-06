@@ -42,6 +42,10 @@ img{
         max-width: 1158px;
         padding: 0 15px;
     }
+    .main-body{
+        margin: auto;
+        max-width: 1158px;
+    }
 }
 
 
@@ -182,6 +186,9 @@ img{
     .address-link{
         font-size: 16px;
         line-height: 1.15;
+    }
+    .header-container{
+        max-width: 1158px;
     }
 }
 
